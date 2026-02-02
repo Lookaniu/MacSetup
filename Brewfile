@@ -17,8 +17,6 @@ brew "delta"
 brew "tmux"
 brew "stow"
 brew "neovim"
-brew "kubectl"       # Kubernetes CLI
-brew "tailscale"     # Secure mesh VPN for homelab and remote access
 
 # Languages n stuff
 brew "python"
@@ -36,15 +34,10 @@ brew "gawk"
 cask "iterm2"
 cask "visual-studio-code"
 cask "raycast"
-cask "docker"
 cask "ghostty"
 cask "aerospace"
-cask "caffeine"
 cask "discord"
-cask "chatgpt"
-cask "shottr"
-cask "caffeine" 
-# cash "zoom" - I don't want to install this by default
+cask "shottr" # https://shottr.cc/
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
