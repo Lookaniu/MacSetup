@@ -1,4 +1,4 @@
-# 🛠️ MacAutoSetup
+# 🛠️ MacSetup
 
 A lean, modern development environment for macOS that brings the Linux tiling window manager experience to Mac — with minimal fuss.
 
@@ -59,15 +59,15 @@ as well as try managing your own config for a bit. You will learn things. Also r
 ### ✅ If you have Git
 
 ```sh
-git clone https://github.com/NLaundry/MacAutoSetup.git ~/Projects/MacAutoSetup
-cd ~/Projects/MacAutoSetup
+git clone https://github.com/Lookaniu/MacSetup.git
+cd MacSetup
 ./bootstrap.sh
 ```
 
 ### 🌀 If you only have curl (fresh macOS install)
 
 ```
-bash <(curl -fsSL https://raw.githubusercontent.com/NLaundry/MacAutoSetup/main/bootstrap-nogit.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/Lookaniu/MacSetup/main/bootstrap-nogit.sh)
 ```
 
 This will:
@@ -77,17 +77,13 @@ This will:
 4. Run the full setup
 
 
-## 📦 What Gets Installed
-
-The Brewfile covers all the essentials:
-
 ### 🧰 CLI Tools
 
-git, fzf, ripgrep, bat, htop, lazygit, lazysql, awscli, jq, gh, tmux, stow, neovim, kubectl, tailscale, coreutils, gnu-sed, findutils, gawk
+git, fzf, ripgrep, bat, htop, lazygit, lazysql, awscli, jq, gh, tmux, stow, neovim, coreutils, gnu-sed, findutils, gawk
 
 ### 💻 GUI Apps
 
-raycast, aerospace, ghostty, iterm2, visual-studio-code, docker, caffeine
+raycast, aerospace, ghostty, iterm2, visual-studio-code
 
 ### 🖥️ Fonts
 
@@ -123,10 +119,3 @@ stow –target=$HOME zsh nvim ghostty
 
 creates symlinks for config files in your home directory.
 
-## ✅ Result
-
-- Feels like Arch or Debian with i3, but polished for Mac
-- Astronvim or minimal Vim: pick your workflow
-- Tiling window control and keybindings
-- Clean terminal with Nerd Font and modern CLI tools
-- Shell and dev tools ready for Python, Node, AWS, and Kubernetes
